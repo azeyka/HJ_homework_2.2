@@ -1,13 +1,13 @@
 'use strict';
 const contactsList = JSON.parse(loadContacts()),
       contactsUl = document.getElementsByClassName('contacts-list')[0];
+
 //Вариант 1
 //contactsList.forEach((contact) => {
 //  contactsUl.innerHTML += `<li data-email="${contact.email}" data-phone="${contact.phone}">
 //                              <strong>${contact.name}</strong>
 //                           </li>`;
 //});
-
 
 //Вариант 2
 contactsList.forEach((contact, index) => {
