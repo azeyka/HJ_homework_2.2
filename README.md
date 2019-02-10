@@ -2,6 +2,6 @@
 
 Выполнены следующие задачи:
 
-1. [Список контактов](./contact-list/)
-2. [Интернет-магазин](./shop/)
-3. [Модальное окно](./modal-window/)
+1. [Список контактов](./contact-list/js/make-contact-list.js)
+2. [Интернет-магазин](./shop/js/add-to-cart.js)
+3. [Модальное окно](./modal-window/js/ui.js)
