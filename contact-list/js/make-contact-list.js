@@ -8,7 +8,6 @@ const contactsList = JSON.parse(loadContacts()),
 //                           </li>`;
 //});
 
-
 //Вариант 2
 contactsList.forEach((contact, index) => {
   contactsUl.innerHTML += `<li></li>`;

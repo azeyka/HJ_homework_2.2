@@ -2,12 +2,12 @@
 let totalPrice = 0;
 document.addEventListener('DOMContentLoaded', init);
 
-function addToCart() {
+function addToCart(event) {
   const countTag = document.getElementById('cart-count'),
         totalPriceTag = document.getElementById('cart-total-price');
   
   countTag.innerHTML = Number(countTag.innerHTML) + 1;
-  totalPrice += Number(this.dataset.price);
+  totalPrice += Number(event.currentTarget.dataset.price);
   totalPriceTag.innerHTML = getPriceFormatted(totalPrice);
 };
 
